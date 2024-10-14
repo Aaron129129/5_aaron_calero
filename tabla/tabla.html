@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla en HTML</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Horario</h2>
+
+<table>
+    <tr>
+        <th></th>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miercoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+    </tr>
+    <tr>
+        <td>8:30</td>
+        <td rowspan="2">SEG. INF</td>
+        <td rowspan="2">SERV. RED</td>
+        <td rowspan="2">SERV. RED</td>
+        <td>INGLES</td>
+        <td>SEG. INF</td>
+    </tr>
+    <tr>
+        <td>9:25</td>
+        <td>SEG. INF.</td>
+        <td>EMPRESA</td>
+    </tr>
+    <tr>
+        <td>10:20</td>
+        <td>EMPRESA</td>
+        <td>SOR</td>
+        <td>INGLES</td>
+        <td>SERV. RED</td>
+        <td>SOR</td>
+    </tr>
+    <tr>
+        <td>11:15-11:40</td>
+        <td colspan="5"><CENTER>RECREO</CENTER></td>
+    </tr>
+    <tr>
+        <td>11:40</td>
+        <td>SOR</td>
+        <td>SOR</td>
+        <td>EMPRESA</td>
+        <td rowspan="2">AP. WEB</td>
+        <td>SOR</td>
+    </tr>
+    <tr>
+        <td>12:35</td>
+        <td>AP. WEB</td>
+        <td rowspan="2">AP. WEB</td>
+        <td rowspan="2">SOR</td>
+        <td Rowspan="2">SERV. RED</td>
+    </tr>
+    <tr>
+        <td>13:30</td>
+        <td>SERV. RED</td>
+        <td>SOR</td>
+    </tr>
+</table>
+
+</body>
+</html>
