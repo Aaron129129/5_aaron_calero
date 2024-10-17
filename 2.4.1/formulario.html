@@ -11,20 +11,37 @@
             display: block;
             margin-top: 15px;
             background-color: rgb(79, 60, 96);
-            color: white;
+            color: rgb(17, 0, 255);
             border-radius: 10px;
         }
     </style>
 </head>
 <body>
-    <form>
+    <form action="mailto: aaron129aca@gmail.com">
+        <fieldset>
+        <legend>Personajes</legend>
+        <label for="name">Superheroe favorito:</label>
+        <input list="superheroes" name="superheroes">
+            <datalist id="superheroes">
+                <option value="Iron man">
+                <option value="The Hulk">
+                <option value="Spiderman">
+            </datalist>
+        <br>
+        <label for="name">Color:</label>
+        <input type="color">
+        </fieldset>
         <fieldset>
         <legend>Información Personal</legend>
         <label for="nombre">Nombre:</label>
         <input name="nombre" id="nombre" type="text" tabindex="1" />
-        <label for="apellidos">Apellidos:</label>
-        <input name="apellidos" id="apellidos" type="text" tabindex="2" />
-      </fieldset>
+        <label for="apellidos">Telefono:</label>
+        <input name="telefeno" id="telefono" type="tel" tabindex="2" />
+        </fieldset>
+        <br>
+        <button name="enviar" type="button">
+            Enviar
+        </button>
     </form>
 </body>
 
