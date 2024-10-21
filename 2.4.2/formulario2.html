@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        .form_button{
+            display: block;
+            margin-top: 15px;
+            background-color: rgb(79, 60, 96);
+            color: rgb(17, 0, 255);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="mailto: aaron129aca@gmail.com">
+        <fieldset>
+        <legend>Personajes</legend>
+        <label for="name">Superheroe favorito:</label>
+        <input list="superheroes" name="superheroes">
+            <datalist id="superheroes">
+                <option value="Iron man">
+                <option value="The Hulk">
+                <option value="Spiderman">
+            </datalist>
+        <br>
+        <label for="name">Color:</label>
+        <input type="color" name="Color">
+        </fieldset>
+        <fieldset>
+        <legend>Información Personal</legend>
+        <label for="nombre">Nombre:</label>
+        <input name="nombre" id="nombre" type="text" tabindex="1" />
+        <label for="telefono">Telefono:</label>
+        <input name="telefeno" id="telefono" type="tel" tabindex="2" />
+        <label for="Fecha">Fecha:</label>
+        <input name="Fecha" id="Fecha" type="date" tabindex="3" />
+        <label for="password">Contraseña:</label>
+        <input name="password" id="password" type="password" tabindex="4" />
+        </fieldset>
+        <fieldset>
+        <legend>Selecciona forma de contacto preferida:</legend>
+        <input type="radio" name="radio"/>Email
+        <input type="radio" name="radio"/>Carta
+        <input type="radio" name="radio"/>Telefono
+        </fieldset>
+        <fieldset>
+            <legend>Elige tus asignaturas favoritas:</legend>
+            <label>
+                <input type="checkbox" name="Asignatura" value="Aplicaciones Web"> Aplicaciones Web
+            </label>
+            <label>
+                <input type="checkbox" name="Asignatura" value="Seguridad Informatica"> Seguridad Informatica
+            </label>
+            </fieldset>
+        <br>
+        <button name="enviar" type="button">
+            <input type="submit" value="Submit">
+        </button>
+        <button name="Reset" type="Reset">
+            <input type="Reset" value="Reset">
+        </button>
+    </form>
+</body>
+
+</html>
