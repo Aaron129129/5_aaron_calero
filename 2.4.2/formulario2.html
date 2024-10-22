@@ -57,6 +57,19 @@
                 <input type="checkbox" name="Asignatura" value="Seguridad Informatica"> Seguridad Informatica
             </label>
             </fieldset>
+            <fieldset>
+                <legend>Otros</legend>
+                <label for="appt">Hora para ducharse:</label>
+                <input type="time" id="appt" name="appt" min="09:00" max="18:00" required />
+                <label for="volume">Nivel de ingles:</label>
+                <input type="range" id="volume" name="volume" min="0" max="11" />
+                <label for="avatar">Foto nalgas:</label>
+                <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
+                <label  for="url">Pon https:// URL:</label>
+                <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30" required />
+                <label for="camp-week">Choose a week in May or June:</label>
+                <input type="week" name="week" id="camp-week" min="2018-W18" max="2018-W26" required />
+            </fieldset>
         <br>
         <button name="enviar" type="button">
             <input type="submit" value="Submit">
