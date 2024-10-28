@@ -1,0 +1,24 @@
+h1{
+    color: aqua;
+}
+h2{
+    color: blueviolet;
+}
+.red{
+    color: red;
+}
+#gris{
+    color: grey;
+    text-transform: uppercase;
+}
+span{
+    font-weight: bolder;
+    font-style: italic;
+}
+code{
+    color: blue;
+    font-weight: bolder;
+}
+#codigo{
+    color: green;
+}
