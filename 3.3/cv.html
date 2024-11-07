@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mi CV</title>
+    <link rel="stylesheet" href="nombredelcss.css" />
+    <style>
+        header {
+            text-align: center;
+            background-image: url(images.jpeg);
+            color: white;
+            background-size: cover;
+        }
+
+        header p {
+            margin-left: 50px;
+            margin-right: 50px;
+            padding-bottom: 15px;
+        }
+
+        header,
+        main,
+        footer {
+            margin: 0 auto;
+        }
+
+        header img {
+            border-radius: 50%;
+            max-width: 130px;
+        }
+
+        section {
+            margin-left: 15px;
+        }
+
+        section:not(:last-child) {
+            border-bottom: 1px solid #071952;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'ralewey';
+            font-size: 16px;
+            line-height: 1cm;
+        }
+
+        h3 {
+            color: #088395;
+        }
+
+        h4 {
+            color: #37B7C3;
+        }
+
+        ul {
+            color: #071952;
+            list-style: none;
+        }
+
+        ul>li:before {
+            content: "►";
+            padding-right: 0.5em;
+            color: #509e98;
+        }
+
+        footer {
+            text-align: right;
+            background-color: #088395;
+            color: white;
+            min-height: 50px;
+            padding-right: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="BA17EFA1-DACF-4CCA-A2D5-CD41B8FAEE11.JPG" />
+        <h1>AARÓN CALERO</h1>
+        <p>¡Hola! Soy Aarón Calero. Trabajo como entrenador de futbol de niños, me encanta programar e investigar acerca
+            del codigo HTML y este es mi CV.</p>
+    </header>
+    <nav>
+        <!-- TODO: navegación a mi linkedin, github, facebook etc-->
+        <!-- incluye ul li a y utiliza display flex como en la práctica anterior -->
+    </nav>
+    <section id="studies">
+        <h3>Experiencia</h3>
+        <article>
+            <h4></h4>
+            <p>Trabajo de monitor en un campamento</p>
+            <p>Trabajo como entrenador de futbol sala de niños</p>
+        </article>
+    </section>
+    <section id="skills">
+        <h3>Conociminetos</h3>
+        <article>
+            <div class="knowledge">
+                <div>
+                    <h4>Conocimientos avanzados</h4>
+                    <ul>
+                        <li>Fútbol</li>
+                        <li>VirtualBox</li>
+                        <li>CSS</li>
+                        <li>HTML</li>
+
+                    </ul>
+                </div>
+                <div>
+                    <h4>Conocomientos básicos</h4>
+                    <ul>
+                        <li>Salud deportiva</li>
+                        <li>Montaje de equipos</li>
+                    </ul>
+                </div>
+                <div class="languages">
+                    <h4>Idiomas</h4>
+                    <ul>
+                        <li>🇬🇧 Ingles - Speak B1</li>
+                        <li>🇪🇸 Español - Nativo</li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+    </section>
+    <section>
+        <h4>Estudios</h4>
+        <ul>
+            <li>Monitor deportivo de fútbol</li>
+            <li>Salud deportiva</li>
+            <li>Educacion secundaria obligatoria</li>
+            <li>Grado medio de informatica</li>
+        </ul>
+    </section>
+    <footer>
+        <p>Creado por: <a
+                href="https://aulavirtual32.educa.madrid.org/ies.sierradeguadarrama.soto/user/profile.php">Aaron
+                Calero</a> / 2024 </p>
+    </footer>
+</body>
+
+</html>
