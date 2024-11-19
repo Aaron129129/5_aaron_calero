@@ -64,21 +64,21 @@ footer {
     padding-right: 15px;
 }
 
-#nav ul {
+nav ul {
     display: flex;
     justify-content: center;
     list-style: none;
     padding-bottom: 15px;
 }
 
-#nav ul li {
+nav ul li {
     background-color: #088395;
     padding: 10px 15px;
     border: 5px solid rgb(31, 29, 29);
     margin: auto;
 }
 
-#nav ul li a {
+nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 16px;
@@ -91,4 +91,13 @@ footer {
 }
 .languages ul>li::before{
     visibility: hidden;
+}
+nav ul li::before{
+    content: '';
+    padding-right: 0;
+}
+nav ul li.active{
+    text-decoration: underline;
+    border-color: white;
+    cursor: default;
 }
