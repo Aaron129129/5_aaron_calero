@@ -10,8 +10,8 @@ function calcularNotaFinal() {
     var divResultado = document.getElementById("resultado");
     
     var notaFinal = (parseInt(notaPrimeraEv) + parseInt(notaSegundaEv)) / 2;
-    console.log("Nota media");
-    
+    console.log("Nota media:" + notaFinal);
+
     if (notaFinal >= 5) {
         divResultado.innerHTML = "APROBADO ;)" + nombre + "Tu nota es: " + notaFinal;
         divResultado.style.backgroundColor = "green";
